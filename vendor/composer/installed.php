@@ -3,7 +3,7 @@
         'name' => 'pay2house/laravel-sdk',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'e5311ea4565557377675a6e843df8c7595609231',
+        'reference' => 'fb8c968a438e15267a33867da36581270f91077e',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -637,7 +637,7 @@
         'pay2house/laravel-sdk' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'e5311ea4565557377675a6e843df8c7595609231',
+            'reference' => 'fb8c968a438e15267a33867da36581270f91077e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
