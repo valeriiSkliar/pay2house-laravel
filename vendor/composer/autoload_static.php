@@ -51,11 +51,6 @@ class ComposerStaticInit3386010bd3e16969b513aae75f22484a
         array (
             'voku\\' => 5,
         ),
-        'Y' => 
-        array (
-            'YourVendor\\Pay2House\\Tests\\' => 27,
-            'YourVendor\\Pay2House\\' => 21,
-        ),
         'W' => 
         array (
             'Whoops\\' => 7,
@@ -115,6 +110,8 @@ class ComposerStaticInit3386010bd3e16969b513aae75f22484a
             'Psr\\Clock\\' => 10,
             'PhpParser\\' => 10,
             'PhpOption\\' => 10,
+            'Pay2House\\Laravel\\Tests\\' => 24,
+            'Pay2House\\Laravel\\' => 18,
         ),
         'O' => 
         array (
@@ -193,14 +190,6 @@ class ComposerStaticInit3386010bd3e16969b513aae75f22484a
         'voku\\' => 
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
-        ),
-        'YourVendor\\Pay2House\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/tests',
-        ),
-        'YourVendor\\Pay2House\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Whoops\\' => 
         array (
@@ -356,8 +345,8 @@ class ComposerStaticInit3386010bd3e16969b513aae75f22484a
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -382,6 +371,14 @@ class ComposerStaticInit3386010bd3e16969b513aae75f22484a
         'PhpOption\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
+        ),
+        'Pay2House\\Laravel\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'Pay2House\\Laravel\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Orchestra\\Workbench\\' => 
         array (
@@ -417,8 +414,8 @@ class ComposerStaticInit3386010bd3e16969b513aae75f22484a
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri-interfaces',
-            1 => __DIR__ . '/..' . '/league/uri',
+            0 => __DIR__ . '/..' . '/league/uri',
+            1 => __DIR__ . '/..' . '/league/uri-interfaces',
         ),
         'League\\MimeTypeDetection\\' => 
         array (
