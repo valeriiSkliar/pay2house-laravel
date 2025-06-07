@@ -1,5 +1,5 @@
 {
-  "name": "pay2house/laravel-sdk",
+  "name": "espolin/pay2house-laravel",
   "description": "Laravel SDK for Pay2House payment gateway integration",
   "type": "library",
   "license": "MIT",
@@ -30,21 +30,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Pay2House\\Laravel\\": "src/"
+      "espolin\\Pay2House\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Pay2House\\Laravel\\Tests\\": "tests/"
+      "espolin\\Pay2House\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Pay2House\\Laravel\\Pay2HouseServiceProvider"
+        "espolin\\Pay2House\\Pay2HouseServiceProvider"
       ],
       "aliases": {
-        "Pay2House": "Pay2House\\Laravel\\Facades\\Pay2House"
+        "Pay2House": "espolin\\Pay2House\\Facades\\Pay2House"
       }
     }
   },
