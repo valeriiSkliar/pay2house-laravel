@@ -1,36 +1,59 @@
 {
-    "name": "your-vendor/pay2house-laravel",
-    "description": "Laravel package for Pay2.House API integration",
-    "type": "library",
-    "require": {
-        "php": "^8.1",
-        "laravel/framework": "^10.0|^11.0",
-        "guzzlehttp/guzzle": "^7.9"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^10.0",
-        "orchestra/testbench": "^8.0|^9.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "YourVendor\\Pay2House\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "YourVendor\\Pay2House\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "YourVendor\\Pay2House\\Pay2HouseServiceProvider"
-            ],
-            "aliases": {
-                "Pay2House": "YourVendor\\Pay2House\\Facades\\Pay2House"
-            }
-        }
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+  "name": "pay2house/laravel-sdk",
+  "description": "Laravel SDK for Pay2House payment gateway integration",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "espolin",
+      "email": "espolin@gmail.com"
+    }
+  ],
+  "keywords": [
+    "laravel",
+    "payment",
+    "gateway",
+    "pay2house",
+    "fintech"
+  ],
+  "homepage": "https://github.com/pay2house/laravel-sdk",
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^9.0|^10.0|^11.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0|^10.0",
+    "orchestra/testbench": "^7.0|^8.0|^9.0",
+    "mockery/mockery": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pay2House\\Laravel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pay2House\\Laravel\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pay2House\\Laravel\\Pay2HouseServiceProvider"
+      ],
+      "aliases": {
+        "Pay2House": "Pay2House\\Laravel\\Facades\\Pay2House"
+      }
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
